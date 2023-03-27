@@ -14,7 +14,7 @@ var wms_layers = [];
         });
 var lyr_4C_Pipes_1 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "http://github.com:8080/geoserver/Phase_4_C_ABANDONED/wms",
+                              url: "http://localhost:8080/geoserver/Phase_4_C_ABANDONED/wms",
     attributions: ' ',
                               params: {
                                 "LAYERS": "L4c_pipes",
@@ -29,7 +29,7 @@ var lyr_4C_Pipes_1 = new ol.layer.Tile({
               wms_layers.push([lyr_4C_Pipes_1, 1]);
 var lyr_4C_Assets200708_2 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "http://github.com:8080/geoserver/Phase_4_C_ABANDONED/wms",
+                              url: "http://localhost:8080/geoserver/Phase_4_C_ABANDONED/wms",
     attributions: ' ',
                               params: {
                                 "LAYERS": "L4c_assets200708",
@@ -44,7 +44,7 @@ var lyr_4C_Assets200708_2 = new ol.layer.Tile({
               wms_layers.push([lyr_4C_Assets200708_2, 1]);
 var lyr_4C_Nodes_3 = new ol.layer.Tile({
                             source: new ol.source.TileWMS(({
-                              url: "http://github.com:8080/geoserver/Phase_4_C_ABANDONED/wms",
+                              url: "http://localhost:8080/geoserver/Phase_4_C_ABANDONED/wms",
     attributions: ' ',
                               params: {
                                 "LAYERS": "L4c_nodes",
